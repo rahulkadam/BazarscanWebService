@@ -1,0 +1,39 @@
+# Environment variable script for application start/stop/status scripts
+# For Tomcat 5 server style
+
+# Determine OS
+os=`uname -a | awk '{ print $1 }'`
+
+# Java settings
+java_root=/opt/jdk-1.7
+
+
+java_lib=$java_root/lib
+java_cmd=$java_root/bin/java
+JAVA_HOME=$java_root; export JAVA_HOME
+
+# Tomcat settings
+tomcat_root=/opt/tomcat7
+tomcat_cp=$tomcat_root/bin/bootstrap.jar:$JAVA_HOME/lib/tools.jar:$tomcat_root/lib/servlet-api.jar:$tomcat_root/bin/tomcat-juli.jar
+
+# Set threads setting
+THREADS_FLAG=native; export THREADS_FLAG
+
+# Application and oss settings
+app_name=bazarscanUI
+oss_root=/opt/oss
+#logdir=$oss_root/$app_name/log
+logdir=$oss_root/logs/bazarscanUI
+log_roller=$oss_root/scripts/log_roller
+app_root=$oss_root/$app_name
+bindir=$app_root/bin
+etcdir=$app_root/etc
+libdir=$app_root/lib
+confdir=$app_root/conf
+cp=$tomcat_cp
+
+. $etcdir/env.SUPPORT
+
+ulimit -n 512
+umask 022
+cd $app_root

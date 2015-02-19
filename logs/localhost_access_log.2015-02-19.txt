@@ -1,0 +1,2 @@
+127.0.0.1 - - [19/Feb/2015:00:00:27 +0530] "GET /bazarscanUI/student/list HTTP/1.1" 200 130
+127.0.0.1 - - [19/Feb/2015:00:00:38 +0530] "GET /bazarscanUI/student/list1 HTTP/1.1" 200 44
