@@ -1,0 +1,2 @@
+hibernetfile=/opt/oss/bazarscanUI/etc/hibernate.cfg.xml
+log4j=/home/rahul/Desktop/config/log4j.properties

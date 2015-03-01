@@ -1,0 +1,5 @@
+127.0.0.1 - - [21/Feb/2015:21:59:41 +0530] "GET /bazarscanUI/student/list1 HTTP/1.1" 404 979
+127.0.0.1 - - [21/Feb/2015:21:59:41 +0530] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Feb/2015:21:59:41 +0530] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Feb/2015:22:00:49 +0530] "GET /bazarscanUI/productdetails/fetchProductList HTTP/1.1" 200 8147
+127.0.0.1 - - [21/Feb/2015:22:00:49 +0530] "GET /favicon.ico HTTP/1.1" 404 -

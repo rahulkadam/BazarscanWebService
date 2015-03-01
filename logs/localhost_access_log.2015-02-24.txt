@@ -1,0 +1,10 @@
+127.0.0.1 - - [24/Feb/2015:23:39:38 +0530] "GET /bazarscanUI/productdetails/fetchProduct_lineList HTTP/1.1" 500 1063
+127.0.0.1 - - [24/Feb/2015:23:39:38 +0530] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Feb/2015:23:39:38 +0530] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Feb/2015:23:48:48 +0530] "GET /bazarscanUI/productdetails/fetchProduct_lineList HTTP/1.1" 200 20653
+127.0.0.1 - - [24/Feb/2015:23:49:06 +0530] "GET /bazarscanUI/productdetails/fetchProduct_lineList HTTP/1.1" 200 20653
+127.0.0.1 - - [24/Feb/2015:23:49:06 +0530] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Feb/2015:23:50:56 +0530] "GET /bazarscanUI/productdetails/fetchSupplierList HTTP/1.1" 200 6351
+127.0.0.1 - - [24/Feb/2015:23:51:26 +0530] "GET /bazarscanUI/productdetails/fetchSupplierList HTTP/1.1" 200 6351
+127.0.0.1 - - [24/Feb/2015:23:51:26 +0530] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Feb/2015:23:51:54 +0530] "GET /bazarscanUI/productdetails/fetchSupplierListxml HTTP/1.1" 200 10140
